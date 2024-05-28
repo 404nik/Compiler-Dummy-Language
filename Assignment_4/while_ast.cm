@@ -1,0 +1,12 @@
+(* pi.cm Build project *)
+Library
+structure WHILE
+is
+while_ast.sml (* Lot of datatypes *)
+program.lex (* Lexer rules. *)
+program.yacc:MLYacc (* Parser rules. *)
+g.sml (* Build the parser *)
+com.sml (* Lex, parse, panic... *)
+$/basis.cm (* SML/NJ’s Basis Library. *)
+$/ml-yacc-lib.cm (* Code written by Lucent. *)
+$smlnj/compiler/compiler.cm (* Structure Compiler. *)
