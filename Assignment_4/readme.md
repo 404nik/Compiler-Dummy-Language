@@ -1,4 +1,4 @@
-# COL226 Assignment 3
+# COL226 Assignment 4
 
 Welcome to the repository for COL226 Assignment 3. This assignment focuses on context-free grammar and the implementation of abstract syntax trees (AST) in SML.
 
